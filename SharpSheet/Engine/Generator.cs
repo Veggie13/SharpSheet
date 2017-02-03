@@ -7,7 +7,7 @@ using SharpSheet.Model;
 
 namespace SharpSheet.Engine
 {
-    static class Generator
+    public static class Generator
     {
         public static Dictionary<string, SheetBase> Generate(Workbook workbook, IEnumerable<string> assemblies)
         {

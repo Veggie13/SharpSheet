@@ -7,7 +7,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            /*
+            
             var wb = new Workbook()
             {
                 Sheets = new[]
@@ -19,9 +19,8 @@ namespace Test
                     }
                 }
             };
-            var gen = new Generator();
-            var dict = gen.Generate(wb, new[] { "mscorlib.dll", "System.Core.dll", "Microsoft.CSharp.dll" });
-            var sheet1 = dict["Sheet1"];*/
+            var dict = Generator.Generate(wb, new[] { "mscorlib.dll", "System.Core.dll", "Microsoft.CSharp.dll" });
+            var sheet1 = dict["Sheet1"];
         }
     }
 }

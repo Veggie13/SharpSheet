@@ -3,7 +3,7 @@
 namespace SharpSheet.Model
 {
     [XmlRoot("workbook")]
-    class Workbook
+    public class Workbook
     {
         [XmlElement("sheet")]
         public Sheet[] Sheets { get; set; }

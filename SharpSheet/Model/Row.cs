@@ -2,7 +2,7 @@
 
 namespace SharpSheet.Model
 {
-    class Row
+    public class Row
     {
         [XmlAttribute("index")]
         public int Index { get; set; }

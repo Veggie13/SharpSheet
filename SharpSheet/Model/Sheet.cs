@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 
 namespace SharpSheet.Model
 {
-    class Sheet
+    public class Sheet
     {
         [XmlAttribute("name")]
         public string Name { get; set; }
