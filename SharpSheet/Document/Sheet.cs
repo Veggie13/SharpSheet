@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Xml.Serialization;
 
-namespace SharpSheet.Model
+namespace SharpSheet.Document
 {
     public class Sheet
     {

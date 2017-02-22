@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="Engine\EmptySheet.cs" />
     <Compile Include="Engine\TestSheet.cs" />
+    <Compile Include="Model\Cell.cs" />
     <Compile Include="Tools\ColumnHeaders.cs" />
     <Compile Include="ViewModel\CellVM.cs" />
     <Compile Include="ViewModel\SheetVM.cs" />
@@ -88,10 +89,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Cell.cs" />
-    <Compile Include="Model\Row.cs" />
-    <Compile Include="Model\Sheet.cs" />
-    <Compile Include="Model\Workbook.cs" />
+    <Compile Include="Document\Cell.cs" />
+    <Compile Include="Document\Row.cs" />
+    <Compile Include="Document\Sheet.cs" />
+    <Compile Include="Document\Workbook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

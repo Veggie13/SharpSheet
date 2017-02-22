@@ -1,13 +1,12 @@
-﻿using System.Xml.Serialization;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace SharpSheet.Model
 {
-    public class Cell
+    class Cell
     {
-        [XmlAttribute("index")]
-        public int Index { get; set; }
-
-        [XmlAttribute("formula")]
-        public string Formula { get; set; }
     }
 }

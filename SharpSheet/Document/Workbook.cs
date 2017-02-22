@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace SharpSheet.Model
+namespace SharpSheet.Document
 {
     [XmlRoot("workbook")]
     public class Workbook
